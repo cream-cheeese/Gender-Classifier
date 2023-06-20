@@ -42,6 +42,15 @@ pip install -r requirements.txt
 You're all set! You can now explore the Gender Classifier project. Here are a few files and directories you may find useful:
 
 - `dataset/`: Directory to store the dataset of portrait images. Once you run the jupyter notebook the dataset directory will be formed.
-- `notebooks/`: Jupyter notebooks for data exploration and model training.
+- `notebooks/`: Jupyter notebooks for data exploration and model training. Run the notebook to train model and save it.
+- `interface.py`: Run this script to launch the user interface for making gender predictions.
+
+## Step 6: Run the User Interface
+To use the Gender Classifier and make gender predictions on new images, run the following command:
+```
+python interface.py
+```
+
+Follow the instructions provided in the user interface to capture an image and obtain the predicted gender.
 
 That's it! You have successfully installed the Gender Classifier project and are ready to start classifying genders in portrait images. Enjoy!
